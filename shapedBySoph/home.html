@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for Shaped By Soph, one-stop shop for everything revolving ways to better both your physical and mental health">
+    <title>Shaped by Soph</title>
+    <link rel="stylesheet" href="./health.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="nav-div">
+            <div id="logo" ><a href="./home.html">Shaped By Soph</a></div>
+            <nav>
+                <a href="./home.html">Home</a>
+                <a href="./push.html">Push</a>
+                <a href="./pull.html">Pull</a>
+                <div id="dropdown">
+                    <button id="dropdown-button" onclick="window.location.href='./legs.html'">Leg Day 101
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="dropdown-content">
+                        <a href="./glutes.html">Glutes</a>
+                        <a href="./quads.html">Quads</a>
+                        <a href="./hamstrings.html">Hamstrings</a>
+                    </div>
+                </div>
+                <a href="./lifestyle.html">Lifestyle</a>
+                <a href="./eats.html">Eats</a>
+            </nav>
+            <div id="header-button-div" class="center-in-div">
+                <button onclick="window.location.href='https://linktr.ee/sophiatoliver'" class="button-style-1">Social Connect</button>
+            </div>
+        </div>
+
+        <main>
+            <div class="home-r1">
+                <div class="home-r1-c1">
+                    <h1 class="home-r1-c1-header">Connect With Me On My Socials!</h1>
+                    <p class="home-r1-c1-p">
+                        Welcome to the Shaped By Soph Community! <br> <br> I am most active on Instagram, but feel free 
+                        to click the button below to check out all my social media handles. 
+                        Submit your photos through the link in my Instagram bio for a feature. 
+                        <br> <br> I cannot wait to interact with you!
+                    </p>
+                    <button onclick="window.location.href='https://linktr.ee/sophiatoliver'" class="button-style-1">Follow Me Here</button>
+                    <button onclick="window.location.href='https://www.instagram.com/sophiaxtoliver/?r=nametag'" id="button-style-2">Instagram</button>
+                </div>
+                <div class="home-r1-c2">
+                    <img id="logo-png" src="./ShapedBySoph.png" alt="Shaped By Soph Logo" width="300" height="300">
+                </div> 
+            </div>
+
+            <div id="MB-video-div" class="center-in-div">
+                <img id="MB-video-img" src="./video-thumbnail.png" alt="Mulligan Brothers" width="800" height="475">
+                <div id="MB-video-div-middle">
+                    <div id="MB-video-div-link">
+                        <a href="https://www.youtube.com/watch?v=Xom0GkLdmJ0&list=PL7oKjbwIcPO6inpUxyjHZnRPhLfbO5W17&index=13" 
+                        target="_blank">
+                            Click Here to Watch!
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="home-row-3">
+                <div id="home-col">
+                    <h1 id="home-header">About Me.</h1>
+                    <p id="home-p">
+                        My fitness journey started in high school while I was working two jobs and going to school full time.
+                        Overwhelmed with post-graduation plans and the challenges of being a growing young adult, I used fitness as an outlet for 
+                        relieving stress. Not having a gym partner or friends who took fitness seriously, I yearned for motivation to encourage myself
+                        to keep trying. I created this platform to bring together a community of supportive, like-minded individuals so 
+                        that woman getting into the gym have a way to escape that feeling I felt so many years ago. Fitness comes in all shapes and sizes
+                        and can be illustrated in any and all places. <br> <br> My goal is to inspire everyone to get in that mentality that YOU CAN DO IT. I am here to 
+                        provide all the resources you need to become the best version of yourself.  
+                    </p>
+
+                    <button onclick="window.location.href='https://www.instagram.com/sophiaxtoliver/?r=nametag'" class="button-style-1">Instagram</button>
+
+                </div>
+                <div id="home-col-png" class="center-in-div">
+                    <img id="about-me-img" src="./aboutme.jpg" alt="About Me" width="250" height="250">
+                </div>
+            </div>
+
+            <div id="home-row-4">
+                <a id="bottom"></a>
+                <h1>Contact Me!</h1>
+                <p>
+                    Required fields are marked with an asterisk *
+                </p>
+                <form id="contact-form" class="center-in-div" method="post" action="./form-submission.html#bottom">
+                    <label for="FirstName">* First Name:</label>
+                    <input type="text" id="FirstName" name="FirstName" placeholder="ex. Sophia" required>
+    
+                    <label for="LastName">* Last Name:</label>
+                    <input type="text" id="LastName" name="LastName" placeholder="ex. Toliver" required>
+    
+                    <label for="Email">* E-Mail:</label>
+                    <input type="email" id="Email" name="Email" placeholder="ex. toliversophia@gmail.com" required>
+    
+                    <label for="Phone">Phone:</label>
+                    <input type="tel" id="Phone" name="Phone" maxlength="12" placeholder="ex. 6029202277">
+
+                    <label for="Social">Instagram Handle:</label>
+                    <input type="text" id="Social" name="Social" placeholder="ex. @sophiaxtoliver">
+    
+                    <label for="Comments">* Comments:</label>
+                    <textarea id="Comments" name="Comments" rows="4" cols="30" placeholder="ex. I was wondering if you could feature me on your page." required></textarea>
+    
+                    <input id="contact-form-submit-button" type="submit">
+                </form>
+            </div>
+        
+        </main>
+    
+        <footer>
+                Copyright &copy; Sophia Toliver 2021
+        </footer>
+    </div>
+    
+
+</body>
+</html>
